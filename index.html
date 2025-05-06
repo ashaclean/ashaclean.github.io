@@ -20,6 +20,11 @@
       color: #007BFF;
       margin-bottom: 10px;
     }
+    .kontak i {
+      font-size: 1.5rem;
+      color: #007BFF;
+      margin-right: 10px;
+    }
     footer {
       background-color: #007BFF;
       color: white;
@@ -30,10 +35,13 @@
 </head>
 <body>
 
-<!-- Navbar -->
+<!-- Navbar dengan Logo -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">Bersih-Bersih</a>
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Cleaning-icon.svg/48px-Cleaning-icon.svg.png" alt="Logo" width="40" height="40" class="me-2">
+      <span>Bersih-Bersih</span>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -41,7 +49,7 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
         <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
-        <li class="nav-item"><a class="nav-link" href="#pesan">Pesan</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
       </ul>
     </div>
   </div>
@@ -56,7 +64,6 @@
         <div class="carousel-caption d-none d-md-block">
           <h1>Jasa Kebersihan Profesional</h1>
           <p>Kami siap membersihkan rumah, kantor, dan ruang usaha Anda.</p>
-          <a href="#pesan" class="btn btn-primary">Pesan Sekarang</a>
         </div>
       </div>
       <div class="carousel-item">
@@ -64,7 +71,6 @@
         <div class="carousel-caption d-none d-md-block">
           <h1>Lingkungan Bersih, Hidup Sehat</h1>
           <p>Kebersihan menyeluruh dengan tenaga ahli terpercaya.</p>
-          <a href="#pesan" class="btn btn-light">Hubungi Kami</a>
         </div>
       </div>
       <div class="carousel-item">
@@ -72,7 +78,6 @@
         <div class="carousel-caption d-none d-md-block">
           <h1>Layanan Cepat dan Terjangkau</h1>
           <p>Pesan hari ini, kami datang besok!</p>
-          <a href="#pesan" class="btn btn-success">Lihat Paket</a>
         </div>
       </div>
     </div>
@@ -109,24 +114,13 @@
   </div>
 </section>
 
-<!-- Formulir Pemesanan -->
-<section id="pesan" class="py-5 bg-light">
-  <div class="container">
-    <h2 class="text-center mb-4">Formulir Pemesanan</h2>
-    <form class="row g-3">
-      <div class="col-md-6">
-        <input type="text" class="form-control" placeholder="Nama Lengkap" required>
-      </div>
-      <div class="col-md-6">
-        <input type="tel" class="form-control" placeholder="Nomor Telepon" required>
-      </div>
-      <div class="col-12">
-        <textarea class="form-control" rows="4" placeholder="Alamat dan Detail Pesanan" required></textarea>
-      </div>
-      <div class="col-12 text-center">
-        <button type="submit" class="btn btn-primary">Kirim</button>
-      </div>
-    </form>
+<!-- Kontak & Alamat -->
+<section id="kontak" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4">Hubungi Kami</h2>
+    <p><i class="bi bi-telephone-fill"></i> <strong>WhatsApp:</strong> <a href="https://wa.me/6281234567890" target="_blank">+62 812-3456-7890</a></p>
+    <p><i class="bi bi-envelope-fill"></i> <strong>Email:</strong> bersihbersih@example.com</p>
+    <p><i class="bi bi-geo-alt-fill"></i> <strong>Alamat:</strong> Jl. Kebersihan No. 123, Jakarta</p>
   </div>
 </section>
 
