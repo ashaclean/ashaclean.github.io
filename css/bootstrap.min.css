@@ -4,28 +4,32 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
-  --blue: #007bff;
+ :root {
+  --blue: #0d6efd;          /* Bootstrap 5 default primary */
   --indigo: #6610f2;
   --purple: #6f42c1;
-  --pink: #e83e8c;
+  --pink: #d63384;
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
-  --green: #28a745;
+  --green: #198754;
   --teal: #20c997;
-  --cyan: #17a2b8;
+  --cyan: #0dcaf0;
   --white: #fff;
-  --gray: #868e96;
+  --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #868e96;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
+
+  /* Custom Aesthetic Blue Theme */
+  --primary: #4dabf7;       /* A lighter, modern blue */
+  --secondary: #adb5bd;
+  --success: #51cf66;
+  --info: #339af0;
+  --warning: #fcc419;
+  --danger: #ff6b6b;
   --light: #f8f9fa;
   --dark: #343a40;
+}
+
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
