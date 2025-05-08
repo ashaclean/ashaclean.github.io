@@ -466,9 +466,6 @@ header {
   color: #5199e4;
 }
 
-/*  TESTIMONIALS
-----------------------*/
-
 .owl-carousel .owl-item img.client-img {
   width: 110px;
   margin: 30px auto;
@@ -483,7 +480,7 @@ header {
 }
 
 .blockquote {
-  color: #d0b082;
+  color: #5199e4; /* Biru kalem */
   font-weight: 300;
 }
 
@@ -512,7 +509,7 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-  background: #f0dfc7;
+  background: #cce4f9;
   width: 35px;
   height: 8px;
   border-radius: 10px;
@@ -520,13 +517,14 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #b18d5b;
+  background: #5199e4;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background: #b18d5b;
+  background: #5199e4;
   box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
+
 
 /*  IMAGE GALLERY
 ----------------------*/
