@@ -646,13 +646,13 @@ header {
   line-height: 50px;
   margin: 0 0.3rem;
   border-radius: 5px;
-  color: #d2b285;
+  color: #4fa3e7; /* Warna biru */
   transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
   text-decoration: none;
-  color: #d2b285;
+  color: #2c7fb2; /* Warna biru lebih gelap untuk hover */
 }
 
 @media (max-width: 991px) {
