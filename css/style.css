@@ -595,7 +595,6 @@ header {
   padding: 1.75rem;
 }
 
-
 /*  CALL TO ACTION
 ----------------------*/
 
@@ -620,7 +619,7 @@ header {
 .call-to-action .tagline {
   font-size: 16px;
   font-weight: 300;
-  color: #f9dcb4;
+  color: #a2c9e0; /* Warna biru muda */
   max-width: 650px;
   margin: 0 auto;
 }
