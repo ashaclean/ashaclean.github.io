@@ -530,13 +530,14 @@ header {
 ----------------------*/
 
 .img-gallery .owl-item {
-  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 9px 32px 0px rgba(81, 153, 228, 0.3); /* bayangan biru lembut */
   transform: scale(0.8);
   transition: all 0.3s ease-in;
 }
 
 .img-gallery .owl-item.center {
   transform: scale(1);
+  box-shadow: 0px 12px 40px 0px rgba(81, 153, 228, 0.4); /* bayangan lebih tebal saat aktif */
 }
 
 /*  PRICING
