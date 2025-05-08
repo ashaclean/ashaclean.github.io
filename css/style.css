@@ -247,30 +247,30 @@ p.lead {
 header {
   padding: 100px 0;
   text-align: center;
-  background-color: #b18d5b;
-  color: #faeac8;
+  background-color: #5199e4; /* Primary blue */
+  color: #e2f0fb; /* Light blue for text */
 }
 
 .bg-gradient {
   background-image: -moz-linear-gradient(
     135deg,
-    rgba(177, 141, 91, 0.8) 0%,
-    rgba(250, 234, 200, 0.8) 100%
+    rgba(81, 153, 228, 0.8) 0%,
+    rgba(174, 216, 246, 0.8) 100%
   );
   background-image: -webkit-linear-gradient(
     135deg,
-    rgba(177, 141, 91, 0.8) 0%,
-    rgba(250, 234, 200, 0.8) 100%
+    rgba(81, 153, 228, 0.8) 0%,
+    rgba(174, 216, 246, 0.8) 100%
   );
   background-image: -ms-linear-gradient(
     135deg,
-    rgba(177, 141, 91, 0.8) 0%,
-    rgba(250, 234, 200, 0.8) 100%
+    rgba(81, 153, 228, 0.8) 0%,
+    rgba(174, 216, 246, 0.8) 100%
   );
   background-image: linear-gradient(
     135deg,
-    rgba(177, 141, 91, 0.8) 0%,
-    rgba(250, 234, 200, 0.8) 100%
+    rgba(81, 153, 228, 0.8) 0%,
+    rgba(174, 216, 246, 0.8) 100%
   );
 }
 
@@ -302,6 +302,7 @@ header {
     padding-bottom: 100%;
   }
 }
+
 
 /* FEATURES
 ----------------------*/
