@@ -539,7 +539,6 @@ header {
   transform: scale(1);
   box-shadow: 0px 12px 40px 0px rgba(81, 153, 228, 0.4); /* bayangan lebih tebal saat aktif */
 }
-
 /*  PRICING
 ----------------------*/
 
@@ -559,9 +558,9 @@ header {
 
 .card.pricing.popular {
   border-top-width: 3px;
-  border-color: #d2b285 #f5e6d1 #fff;
-  box-shadow: 0px 12px 59px 0px rgba(36, 7, 31, 0.11);
-  color: #d2b285;
+  border-color: #4b8db5 #cfe5f2 #fff; /* Warna biru */
+  box-shadow: 0px 12px 59px 0px rgba(81, 153, 228, 0.2); /* Bayangan biru */
+  color: #4b8db5; /* Warna biru */
 }
 
 .card.pricing .card-head {
@@ -573,7 +572,7 @@ header {
   display: block;
   font-size: 45px;
   font-weight: 300;
-  color: #d2b285;
+  color: #4b8db5; /* Warna biru */
 }
 
 .card.pricing .card-head .price sub {
@@ -584,7 +583,7 @@ header {
 .card.pricing .list-group-item {
   border: 0;
   text-align: center;
-  color: #959094;
+  color: #7a8c9c; /* Warna biru ke abu-abu */
   padding: 1.05rem 1.25rem;
 }
 
@@ -595,6 +594,7 @@ header {
 .card.pricing .card-body {
   padding: 1.75rem;
 }
+
 
 /*  CALL TO ACTION
 ----------------------*/
